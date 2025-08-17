@@ -1,8 +1,136 @@
 .entete{
     display: flex;
     flex-direction: row;
+    margin: 20px;
+    justify-content: space-between;
+    
 }
 .ul1{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+button{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+a :hover{
+    color: brown;
+}
+button :hover{
+    color: brown;
+}
+.container{
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 0 200px 0 200px;
+    
+    
+}
+span{
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    }
+.mon-texte{
+    font-size: 20px;
+    font-weight: bold;
+}
+.programme{
+    background-color: rgb(187, 49, 49);
+    margin: 0 200px 0 200px;
+}
+.pourcent{
+    color: brown;
+    background-color: white;
+}
+.p1{
+    border: 1px solid brown;
+    padding: 10px;
+}
+.realite-du-marche{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.span2{
+    color: white;
+}
+.container1{
+    text-align: center;
+    list-style-position: inside;
+    background-color: brown;
+    padding: 10px;
+    margin: 10px 250px 10px 250px;
+    border-radius: 10px;
+}
+.pour{
+    color: brown;
+}
+.liste-avec-point{
+    background-color: rgb(187, 49, 49);
+    margin: 0 250px 0 250px;
+    padding: 20px;
+}
+
+.avantage{
+    border: 2px solid brown;
+    border-radius: 10px;
+    padding: 50px;
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px ;
+    padding-left: 250px;
+    padding-right: 250px;
+    
+}
+.croissance{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 0 30px 0 30px;
+    border-radius: 10px;
+}
+.croissance0{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 20px;
+    margin: 50px;
+}
+.taux{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 0 100px 0 100px;
+    border-radius: 10px;
+}
+.entreprise{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    padding: 0 75px 0 75px;
+    border-radius: 10px;
+    
+}
+.span3{
+    color: white;
+    width: 30px;
 }
