@@ -156,6 +156,7 @@ span{
 }
 .performance{
     padding-left: 200px;
+    
 }
 .centre{
     padding-left: 160px;
@@ -164,7 +165,7 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 280px;
+    padding-left: 210px;
     padding-right: 280px;
  }
 .lorem{
@@ -218,4 +219,12 @@ span{
 }
 .contactez-nous{
     padding-left: 50px;
+}
+.etoile{
+    display: flex;
+    flex-direction: row;
+}
+.gauche{
+    display: flex;
+    flex-direction: column;
 }
