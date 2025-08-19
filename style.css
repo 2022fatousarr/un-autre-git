@@ -199,10 +199,12 @@ span{
     justify-content: space-between;
     background-color: brown;
     color: white;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .contact{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
 }
 .label{
     display: flex;
@@ -213,4 +215,7 @@ span{
     display: flex;
     flex-direction: row;
     padding: 5px;
+}
+.contactez-nous{
+    padding-left: 50px;
 }
