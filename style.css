@@ -165,7 +165,7 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 210px;
+    padding-left: 220px;
     padding-right: 280px;
  }
 .lorem{
@@ -176,9 +176,8 @@ span{
     background-color: brown;
     width: 300px;
 }
-.lor{
-    background-color: beige;
-}
+
+
 .web{
     color: brown;
 }
