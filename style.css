@@ -70,12 +70,14 @@ span{
     color: white;
 }
 .container1{
-    text-align: center;
     list-style-position: inside;
     background-color: brown;
     padding: 10px;
     margin: 10px 250px 10px 250px;
     border-radius: 10px;
+}
+.solution{
+    text-align: center;
 }
 .pour{
     color: brown;
@@ -84,6 +86,7 @@ span{
     background-color: rgb(187, 49, 49);
     margin: 0 250px 0 250px;
     padding: 20px;
+    text-align: left;
 }
 
 .avantage{
@@ -113,7 +116,7 @@ span{
     justify-content: space-between;
     background-color: brown;
     padding: 20px;
-    margin: 50px;
+    margin: 50px 170px 50px 170px;
 }
 .taux{
     display: flex;
@@ -133,4 +136,81 @@ span{
 .span3{
     color: white;
     width: 30px;
+}
+.span4{
+    color: white;
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 170px;
+    
+}
+.container30{
+    background-color: beige;
+    width: 500px;
+    padding-left: 20px;
+}
+.ligne{
+    border: 1px solid black;
+}
+.performance{
+    padding-left: 200px;
+}
+.centre{
+    padding-left: 160px;
+}
+ .container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 280px;
+    padding-right: 280px;
+ }
+.lorem{
+    background-color: beige;
+    width: 300px;
+}
+.lorem2{
+    background-color: brown;
+    width: 300px;
+}
+.lor{
+    background-color: beige;
+}
+.web{
+    color: brown;
+}
+.mini-image{
+    background-color: beige;
+    
+}
+.mini-image2{
+    background-color: brown;
+    
+}
+.espace{
+    border: 1px solid black;
+    padding-bottom: 0px;
+}
+
+.container5{
+    display: flex; 
+    justify-content: space-between;
+    background-color: brown;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.contact1{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
 }
